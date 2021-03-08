@@ -1,0 +1,121 @@
+* {
+    font-family: 'Stick', sans-serif;
+}
+
+.hero {
+    height: 50vh;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 15%;
+    background-color: rgba(38, 70, 83, 1);
+}
+
+.hero h1 {
+    color: rgb(233, 196, 106);
+    font-size: 5rem;
+}
+
+.hero h2 {
+    color: rgba(233, 196, 106, 0.5);
+    font-size: 2rem;
+}
+
+header>nav {
+    background-color: rgba(38, 70, 83, 0.9);
+    height: 45px;
+}
+
+header>nav>ul {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+header>nav>ul>li {
+    display: inline;
+    margin: 20px;
+}
+
+header>nav>ul>li>a {
+    color: rgba(231, 111, 81, 1);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+header>nav>ul>li>a:hover {
+    color: rgba(231, 111, 81, 0.7);
+}
+
+.user {
+    background-color: rgb(42, 157, 143);
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.user p {
+    font-size: 3rem;
+}
+
+.cards {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(233, 196, 106);
+}
+
+.cards>p {
+    font-size: 2rem;
+}
+
+.cards>button {
+    border: 0;
+    padding: 10px;
+    background-color: rgba(38, 70, 83, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.cards>button:hover {
+    border: 0;
+    padding: 10px;
+    background-color: white;
+    color: rgba(38, 70, 83, 1);
+}
+
+.card {
+    width: 200px;
+    min-height: 400px;
+    background-color: rgba(38, 70, 83, 1);
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 60%;
+}
+
+.card .cardTitle {
+    font-size: 1.6rem;
+}
+
+.card .cardDes {}
+
+
+footer {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(38, 70, 83, 1);
+    color: white;
+}
